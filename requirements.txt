@@ -1,13 +1,19 @@
-# PathSnap – Python dependencies
+
+# PathSnap - Python dependencies
+
 # Frontend
 streamlit>=1.35.0
 requests>=2.31.0
 pandas>=2.0.0
 
-# Backend / ML (managed by teammate – listed here for reference)
-# fastapi
-# uvicorn
-# folium
-# scikit-learn
-# numpy
-# scipy
+# Backend
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30,<1.0
+pydantic-settings>=2.5,<3.0
+
+# Machine Learning
+numpy>=1.26,<3.0
+scikit-learn>=1.4,<2.0
+joblib>=1.3,<2.0
+xgboost>=2.0,<4.0
+lightgbm>=4.0,<5.0
