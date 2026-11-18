@@ -1,0 +1,38 @@
+{
+  "model": "xgboost",
+  "points": [
+    {
+      "point_id": "gps-0001",
+      "candidates": [
+        {
+          "candidate_id": "gps-0001-arc-17",
+          "arc_id": 17,
+          "features": {
+            "distance_m": 3.4,
+            "rank": 0,
+            "speed": 8.2,
+            "time_gap": 1.0,
+            "heading_diff": 5.0,
+            "prev_dist": 2.8,
+            "heading": 92.0,
+            "road_heading": 88.0
+          }
+        },
+        {
+          "candidate_id": "gps-0001-arc-42",
+          "arc_id": 42,
+          "features": {
+            "distance_m": 18.1,
+            "rank": 1,
+            "speed": 8.2,
+            "time_gap": 1.0,
+            "heading_diff": 34.0,
+            "prev_dist": 15.3,
+            "heading": 92.0,
+            "road_heading": 58.0
+          }
+        }
+      ]
+    }
+  ]
+}
