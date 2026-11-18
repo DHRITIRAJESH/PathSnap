@@ -1,0 +1,190 @@
+[
+  {
+    "model": "xgboost",
+    "source_csv": "train_features_v2.csv",
+    "validation_trip_ids": [
+      "00000001",
+      "00000005",
+      "00000013",
+      "00000016",
+      "00000024",
+      "00000028",
+      "00000035",
+      "00000037",
+      "00000038",
+      "00000041",
+      "00000043",
+      "00000055",
+      "00000061",
+      "00000084",
+      "00000085",
+      "00000088"
+    ],
+    "training_rows": 506871,
+    "validation_rows": 118380,
+    "files": [
+      {
+        "file": "trip_00000001_batch_01.json",
+        "trip_id": "00000001",
+        "points": 1315,
+        "candidates": 3945
+      },
+      {
+        "file": "trip_00000005_batch_01.json",
+        "trip_id": "00000005",
+        "points": 1045,
+        "candidates": 3135
+      },
+      {
+        "file": "trip_00000013_batch_01.json",
+        "trip_id": "00000013",
+        "points": 2580,
+        "candidates": 7740
+      },
+      {
+        "file": "trip_00000016_batch_01.json",
+        "trip_id": "00000016",
+        "points": 1305,
+        "candidates": 3915
+      },
+      {
+        "file": "trip_00000024_batch_01.json",
+        "trip_id": "00000024",
+        "points": 801,
+        "candidates": 2403
+      },
+      {
+        "file": "trip_00000028_batch_01.json",
+        "trip_id": "00000028",
+        "points": 3565,
+        "candidates": 10695
+      },
+      {
+        "file": "trip_00000035_batch_01.json",
+        "trip_id": "00000035",
+        "points": 1643,
+        "candidates": 4929
+      },
+      {
+        "file": "trip_00000037_batch_01.json",
+        "trip_id": "00000037",
+        "points": 677,
+        "candidates": 2031
+      },
+      {
+        "file": "trip_00000038_batch_01.json",
+        "trip_id": "00000038",
+        "points": 1287,
+        "candidates": 3861
+      },
+      {
+        "file": "trip_00000041_batch_01.json",
+        "trip_id": "00000041",
+        "points": 1019,
+        "candidates": 3057
+      },
+      {
+        "file": "trip_00000043_batch_01.json",
+        "trip_id": "00000043",
+        "points": 2322,
+        "candidates": 6966
+      },
+      {
+        "file": "trip_00000055_batch_01.json",
+        "trip_id": "00000055",
+        "points": 2472,
+        "candidates": 7416
+      },
+      {
+        "file": "trip_00000061_batch_01.json",
+        "trip_id": "00000061",
+        "points": 1430,
+        "candidates": 4290
+      },
+      {
+        "file": "trip_00000084_batch_01.json",
+        "trip_id": "00000084",
+        "points": 5000,
+        "candidates": 15000
+      },
+      {
+        "file": "trip_00000084_batch_02.json",
+        "trip_id": "00000084",
+        "points": 5000,
+        "candidates": 15000
+      },
+      {
+        "file": "trip_00000084_batch_03.json",
+        "trip_id": "00000084",
+        "points": 5000,
+        "candidates": 15000
+      },
+      {
+        "file": "trip_00000084_batch_04.json",
+        "trip_id": "00000084",
+        "points": 1031,
+        "candidates": 3093
+      },
+      {
+        "file": "trip_00000085_batch_01.json",
+        "trip_id": "00000085",
+        "points": 1092,
+        "candidates": 3276
+      },
+      {
+        "file": "trip_00000088_batch_01.json",
+        "trip_id": "00000088",
+        "points": 876,
+        "candidates": 2628
+      }
+    ]
+  },
+  {
+    "model": "lightgbm",
+    "source_csv": "advanced_features_test.csv",
+    "validation_trip_ids": [
+      "7",
+      "52"
+    ],
+    "training_rows": 19641,
+    "validation_rows": 4848,
+    "files": [
+      {
+        "file": "trip_7_batch_01.json",
+        "trip_id": "7",
+        "points": 1354,
+        "candidates": 4062
+      },
+      {
+        "file": "trip_52_batch_01.json",
+        "trip_id": "52",
+        "points": 262,
+        "candidates": 786
+      }
+    ]
+  },
+  {
+    "model": "logistic_regression",
+    "source_csv": "advanced_features_test.csv",
+    "validation_trip_ids": [
+      "7",
+      "52"
+    ],
+    "training_rows": 19641,
+    "validation_rows": 4848,
+    "files": [
+      {
+        "file": "trip_7_batch_01.json",
+        "trip_id": "7",
+        "points": 1354,
+        "candidates": 4062
+      },
+      {
+        "file": "trip_52_batch_01.json",
+        "trip_id": "52",
+        "points": 262,
+        "candidates": 786
+      }
+    ]
+  }
+]
