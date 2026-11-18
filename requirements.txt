@@ -1,0 +1,13 @@
+# PathSnap – Python dependencies
+# Frontend
+streamlit>=1.35.0
+requests>=2.31.0
+pandas>=2.0.0
+
+# Backend / ML (managed by teammate – listed here for reference)
+# fastapi
+# uvicorn
+# folium
+# scikit-learn
+# numpy
+# scipy
