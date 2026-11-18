@@ -1,38 +1,35 @@
-
-# ── Python ────────────────────────────────────────────────────────────────────
+# Python
 __pycache__/
 *.py[cod]
 *.pyo
 
-# ── Virtual environments ───────────────────────────────────────────────────────
+# Virtual environments
 venv/
 .venv/
 env/
 ENV/
 
-# ── Environment / secrets ─────────────────────────────────────────────────────
+# Environment and secrets
 .env
 .env.*
 *.env
 .streamlit/secrets.toml
 
-# ── macOS artefacts ───────────────────────────────────────────────────────────
-# The api_data/__MACOSX/ folder is an extraction artefact from a macOS zip.
-# The ._* resource-fork files inside it have no project value.
+# macOS
 __MACOSX/
 ._*
 .DS_Store
 
-# ── Windows artefacts ─────────────────────────────────────────────────────────
+# Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# ── Jupyter ───────────────────────────────────────────────────────────────────
+# Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# ── Logs and temporary files ──────────────────────────────────────────────────
+# Logs and temporary files
 *.log
 *.tmp
 *.temp
@@ -40,12 +37,12 @@ Desktop.ini
 *.swp
 *.swo
 
-# ── IDE ───────────────────────────────────────────────────────────────────────
+# IDE
 .vscode/
 .idea/
 *.iml
 
-# ── Build / dist ──────────────────────────────────────────────────────────────
+# Build
 dist/
 build/
 *.egg-info/

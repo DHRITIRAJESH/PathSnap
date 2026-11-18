@@ -1,4 +1,3 @@
-
 # PathSnap - Python dependencies
 
 # Frontend
